@@ -1,0 +1,52 @@
+BÙI NAM ANH STT:01 BÀI TẬP VỀ HTML5 ( 5 CHƯƠNG ĐẦU) 
+ 
+CHƯƠNG 1 : tổng quan về html
+HTML là gì?
+HTML là viết tắt của Ngôn ngữ đánh dấu siêu văn bản
+HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang Web
+HTML mô tả cấu trúc của một trang Web
+Các phần tử HTML cho trình duyệt biết cách hiển thị nội dung
+Các phần tử HTML gắn nhãn cho các phần nội dung như "đây là tiêu đề", "đây là đoạn văn", "đây là liên kết", v.v.
+Phần tử HTML là gì?
+Một phần tử HTML được xác định bởi thẻ bắt đầu, một số nội dung và thẻ kết thúc:
+< tagname > Nội dung ở đây... < /tagname >
+Phần tử HTML là mọi thứ từ thẻ bắt đầu đến thẻ kết thúc:
+<h1> nd</h1> _
+< p >nd </p>
+Lưu ý: Một số phần tử HTML không có nội dung (như phần tử <br>). Các phần tử này được gọi là các phần tử rỗng. Các phần tử trống không có thẻ kết thúc!
+ Chương 2: html cơ bản 
+-Tài liệu HTML
+Tất cả tài liệu HTML phải bắt đầu bằng khai báo loại tài liệu: <!DOCTYPE html>.
+Bản thân tài liệu HTML bắt đầu bằng <html>và kết thúc bằng </html>.
+Phần hiển thị của tài liệu HTML nằm giữa <body>và </body>.
+<!DOCTYPE> đại diện cho loại tài liệu và giúp trình duyệt hiển thị các trang web một cách chính xác.
+Nó chỉ được xuất hiện một lần, ở đầu trang (trước bất kỳ thẻ HTML nào)
+-Tiêu đề HTML
+Các tiêu đề HTML được xác định bằng các thẻ <h1>to <h6>.
+<h1>xác định tiêu đề quan trọng nhất. <h6>xác định tiêu đề ít quan trọng nhất
+-Đoạn văn HTML
+Các đoạn HTML được xác định bằng thẻ <p>
+-Liên kết HTML
+Các liên kết HTML được xác định bằng thẻ <a>
+-Hình ảnh HTML
+Hình ảnh HTML được xác định bằng <img>thẻ.
+Tệp nguồn ( src), văn bản thay thế ( alt), widthvà heightđược cung cấp dưới dạng thuộc tính:
+
+
+
+Chương 3: phần tử html (element)
+Chương 4: thuộc tính html (attribute)
+Tất cả các phần tử HTML có thể có các thuộc tính
+Các thuộc tính cung cấp thêm thông tin về các phần tử
+Các thuộc tính luôn được chỉ định trong thẻ bắt đầu
+Các thuộc tính thường đi theo cặp tên/giá trị như: name="value
+-Thuộc tính href
+Thuộc hreftính chỉ định URL của trang mà liên kết chuyển đến
+-Thuộc tính src
+Thẻ <img>được sử dụng để nhúng hình ảnh vào trang HTML. Thuộc srctính chỉ định đường dẫn đến hình ảnh sẽ được hiển thị
+-Các thuộc tính chiều rộng và chiều cao
+-Thuộc tính thay thế
+Thuộc tính bắt buộc altcho <img> thẻ chỉ định văn bản thay thế cho hình ảnh, nếu hình ảnh không thể hiển thị vì lý do nào đó. Điều này có thể là do kết nối chậm hoặc lỗi trong srcthuộc tính hoặc nếu người dùng sử dụng trình đọc màn hình.
+-Thuộc tính phong cách (style)
+Thuộc tính style được sử dụng để thêm kiểu cho một phần tử, chẳng hạn như màu sắc, phông chữ, kích thước, v.v.
+chương 5 : tiêu đề html (heading)
